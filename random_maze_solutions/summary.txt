@@ -1,0 +1,10 @@
+device=cuda
+model=image_rl_results\trained_image_q_network.pt
+model_config={'hidden': 128, 'epochs': 4, 'batch_size': 65536, 'lr': 0.001}
+input_dir=random_mazes
+cases=30
+successes=30
+score=520.000000
+max_score=520.000000
+results_csv=random_maze_solutions\results.csv
+path_images=random_maze_solutions\paths

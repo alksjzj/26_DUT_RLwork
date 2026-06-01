@@ -1,0 +1,12 @@
+device=cuda
+best_config=1
+best_params={'hidden': 128, 'epochs': 4, 'batch_size': 65536, 'lr': 0.001}
+train_seeds=1-3000
+test_seeds=3001-3200
+train_images=9000
+samples_per_image=512
+test_cases=600
+test_successes=600
+test_score=11000.000000
+model=image_rl_results\trained_image_q_network.pt
+teacher_dir=teacher_images
